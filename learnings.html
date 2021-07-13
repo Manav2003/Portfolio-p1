@@ -1,6 +1,62 @@
+<!DOCTYPE html>
 <html>
-    <head></head>
-    <body>
-        <p> Doing some html rn</p>
+    <style>
+        .container-one{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+        .small-image{
+            width:450px;
+            margin-top: 0%;
+            margin-bottom:0%;
+        }
+        .container-two{
+            display=grid;
+
+        }
+    </style>
+    <head>
+    <div class="container-one" style="background-color: gray;">
+        <h2><a href="home.html" style="color: black;">Home</a></h2>
+        <h2><a href="about.html" style="color: black;">About</a></h2>
+        <h2><a href="learnings.html" style="color: black;">Learnings</a></h2>
+        <h2><a href="projects.html" style="color: black;">Projects</a></h2>
+    </div>
+    </head>
+    <body style="background-color: ivory;">
+        <h2>
+            Here is what I have learned and accomplished in my progressing years.
+        </h2>
+        <div   style="font-size: 20px;">
+            <div class="container-one">
+                <p>
+                    I completed my highschool and senior secondary education from St. Thomas' English Medium School.
+                    For senior secondary education I studied Physics, Chemistry and Mathematics along with Computer 
+                    Science and English.
+                </p>
+            
+                    <img class="small-image" src="10th pass.jpg" alt="Highschool Certificate">
+                    <img class="small-image" src="12th pass.jpg" alt="Highschool Certificate">
+            </div>
+            <div >
+                <div>
+                    <p>
+                        I have always had an interest in coding, and through these years I have gained intermediate knowledge 
+                        of Java, cleared basic levels of C and Python. I also represented my school in two interschool competitions 
+                        held in my city, Meerut, namely:
+                        <ul class="container-one">
+                            <li> Sophia Tech-Fiesta (STF) organised by Sophia Girl's School, Meerut.</li>
+
+                            <li> COSMA Inter School Computer Symposium organised by St. Mary's Academy, Meerut.</li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="container-one">
+                    <img style="width:600px;" src="stf.png" alt="STF Certificate">
+                    <img src="cosma.png" alt="COSMA Certificate"> 
+                </div>
+            </div>
+        </div>
     </body>
 </html>
